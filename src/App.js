@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import { MDBBtn } from "mdbreact";
 import './App.css';
 
 class App extends Component {
@@ -9,7 +10,8 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Follow Up Akgec
+            <MDBBtn color="primary">Hi</MDBBtn>
           </p>
           <a
             className="App-link"
